@@ -1,0 +1,115 @@
+:root {
+  --pink: #ffb6c1;
+  --rose: #ff80ab;
+  --aqua: #a7ffeb;
+  --lavender: #e6e6fa;
+  --gray: #555;
+}
+
+
+body {
+  background: linear-gradient(135deg, var(--lavender), var(--aqua));
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  text-align: center;
+  color: var(--gray);
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.4rem;
+  color: var(--rose);
+  text-shadow: 1px 1px 4px rgba(255, 128, 171, 0.4);
+  margin-bottom: 0.3em;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border: 4px solid var(--pink);
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(255, 182, 193, 0.4);
+  width: fit-content;
+  margin: 0 auto 25px auto;
+  padding: 12px;
+}
+
+#canvas {
+  border-radius: 16px;
+  width: 900px;
+  height: 500px;
+  display: block;
+}
+
+.controls {
+  background: rgba(255, 255, 255, 0.8);
+  border: 2px solid var(--pink);
+  border-radius: 16px;
+  padding: 16px;
+  width: fit-content;
+  margin: 0 auto 16px auto;
+  box-shadow: 0 4px 12px rgba(255, 182, 193, 0.3);
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid var(--pink);
+  transition: box-shadow 0.3s;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(255, 128, 171, 0.6);
+}
+
+button {
+  background: var(--rose);
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 12px;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.3s;
+  box-shadow: 0 4px 10px rgba(255, 128, 171, 0.3);
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(255, 128, 171, 0.4);
+}
+
+.sliders {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+label {
+  background: #fff;
+  border: 2px solid var(--pink);
+  border-radius: 10px;
+  padding: 6px 12px;
+  font-size: 0.95rem;
+  color: var(--gray);
+}
+
+footer {
+  margin-top: 25px;
+  color: #777;
+  font-size: 0.9rem;
+}
