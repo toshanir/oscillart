@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oscillart</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Welcome to Oscillart 🎶</h1>
+  <p class="subtitle"> Type a musical pattern like <b>CDCDA</b> and watch the magic release </p>
+
+  <div class="canvas-container">
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <div class="controls">
+    <input type="text" id="input" placeholder="Enter notes (A–G)... 💌" />
+    <button onclick="handle()">✨ Submit ✨</button>
+    <button id="record" onclick="toggle()">Start recording</button>
+    <div class="sliders">
+      <label>🎨 Color:
+        <input type="color" id="color" value="#ff80ab" />
+      </label>
+      <label>Volume:
+        <input type="range" id="vol-slider" min="1" max="100" value="80" />
+      </label>
+    </div>
+  </div>
+
+  <footer>Made with 💗 by Toshani Rawat</footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
