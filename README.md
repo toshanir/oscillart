@@ -18,4 +18,10 @@ sin waves that are really intresting as I researched a bit on them. Fun Fact: Ev
 Challeges 
 -> One challege I faced is to figure out the background and how to set it up and to make the cute stuff which I needed to research so I use like W3Schools
 ----------------------------------------------
-[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
+<div align="center">
+  <a href="https://moonshot.hackclub.com" target="_blank">
+    <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/35ad2be8c916670f3e1ac63c1df04d76a4b337d1_moonshot.png" 
+         alt="This project is part of Moonshot, a 4-day hackathon in Florida visiting Kennedy Space Center and Universal Studios!" 
+         style="width: 100%;">
+  </a>
+</div>
